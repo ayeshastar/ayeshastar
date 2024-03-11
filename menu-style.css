@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+/*Reset estilos*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    flex-basis: auto;
+    justify-content: flex-end;
+}
+
+/*barra de navegación*/
+.nav-link {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    margin: 0 10px 0 10px ;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #A4857D;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #dfc9c4;
+}
+
+.navbar {
+    background-color: #fcf3f5;
+    height: 100px;
+}
+
+/*estilos de la imagen del corazón*/
+.hr-img img{
+    height: 80px;
+}
+
+/*portada de la página menú*/
+.portada-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.portada-menu h1 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    text-align: center;
+    color: #9c5f7c;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+/*apartado de bebidas título*/
+.bebidas-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bebidas-menu h1 {
+    font-family: "Lobster", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    color: #c7a3b7;
+}
+
+
+.spc-casa {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #c7b8a6;
+}
+
+
+/*contenedores de bebidas, pasteles, cupcakes y helados*/
+.bebidas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 50px 0;
+    font-family: "Lobster", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    gap: 30px; /*espacio entre cada contenedor*/
+}
+
+/*caja 1 del menu*/
+.caja1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: -4px 5px 10px 5px rgba(197, 150, 166, 0.556);
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+    border-radius: 40px;
+}
+
+.caja1 img {
+    height: 200px;
+    width: 200px;
+    filter: drop-shadow(-2px 3px 5px rgba(182, 129, 147, 0.814));
+}
+
+.caja1 h2 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: #A68780;
+}
+
+.caja1 p {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 13px;
+    color: #c7b8a6;
+}
+
+/*caja 2 del menu*/
+.caja2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 1px 5px 10px 5px rgba(197, 150, 166, 0.556);
+    padding: 20px;
+    width: 360px;
+    height: 490px;
+    border-radius: 40px;
+}
+
+.caja2 img {
+    height: 250px;
+    width: 250px;
+    filter: drop-shadow(1px 3px 5px rgba(182, 129, 147, 0.814));
+    margin-bottom: 20px;
+}
+
+.caja2 h2 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: #A68780;
+}
+
+.caja2 p {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+    color: #c7b8a6;
+}
+
+/*caja 3 del menu*/
+.caja3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 4px 5px 10px 5px rgba(197, 150, 166, 0.556);
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+    border-radius: 40px;
+}
+
+.caja3 img {
+    height: 200px;
+    width: 200px;
+    filter: drop-shadow(2px 3px 5px rgba(182, 129, 147, 0.814));
+}
+
+.caja3 h2 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: #A68780;
+}
+
+.caja3 p {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 13px;
+    color: #c7b8a6;
+}
+
+/*botón de consultar sucursal*/
+.btn-consulta {
+    width: 180px;
+    height: 40px;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 14px;
+    color: #f3e5ec; /*letra del botón consulta*/
+    padding: 3px;
+    border-radius: 25px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #c7a3b7;
+    transition: .5s; /*para que el color cambie de manera suave*/
+}
+
+.btn-consulta:hover {
+    font-weight: 500;
+    background-color: #9c5f7c;
+    border-color: #9c5f7c;
+}
+
+/*footer*/
+.cont-footer {
+    background-color: #fcf3f5;
+}
+
+.cont-info-footer {
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px 0;
+    /*margin: 0 100px;*/
+}
+
+/*estilos del logo*/
+
+.logo-form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.logo-form img {
+    width: 150px;
+}
+
+/*estilos del label que está por encima del input*/
+.logo-form label {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #bd95ab;
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+/*caja de estilos del input*/
+.input-box {
+    position: relative;
+    width: 80%;
+    height: 50px;
+    border-bottom: 2px solid #d5b3c6; /*color de línea*/
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 0 35px 0 5px;
+}
+
+/*apartado información*/
+.informacion {
+    /*margin: 100px 0 100px 0;*/
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.informacion h2 {
+    margin-bottom: 20px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #bd95ab;
+    font-size: 30px;
+}
+
+.informacion a {
+    width: 30%;
+    text-decoration: none;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #c7a3b7;
+    padding-bottom: 10px;
+    transition: .5;
+}
+
+.informacion a:hover {
+    color: #b48ba1;
+}
+
+/*apartado de ayuda*/
+.ayuda {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.ayuda h2 {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #bd95ab;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.ayuda a {
+    width: 60%;
+    text-decoration: none;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #c7a3b7;
+    padding-bottom: 10px;
+    transition: .5;
+}
+
+.ayuda a:hover {
+    color: #b48ba1;
+}
+
+/*apartado contáctanos*/
+.contactanos {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.contactanos h2 {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #bd95ab;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/*icono y texto de email*/
+.email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 10px;
+    gap: 10px;
+}
+
+.email i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bd95ab;
+}
+
+.email p {
+    margin: 0;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #c7a3b7;
+}
+
+
+/*icono y texto de teléfono*/
+.phone {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    gap: 10px;
+}
+
+.phone i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bd95ab;
+}
+
+.phone p {
+    margin: 0;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #c7a3b7;
+}
+
+/*apartado de redes sociales*/
+hr {
+    color: #9c5f7c;
+}
+
+.red-social a {
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    color: #c7a3b7;
+    padding: 10px;
+    transition: .5;
+}
+
+.red-social a:hover {
+    color: #bd95ab;
+}
+
+.btn-sub input {
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 14px;
+    color: #f3e5ec; /*letra del botón*/
+    padding: 3px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #c7a3b7;
+    transition: .5s;
+}
+
+.btn-sub input:hover {
+    font-weight: 500;
+    background-color: #9c5f7c;
+    border-color: #9c5f7c;
+}
+
+/*copy*/
+.copyright {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.copyright h3 {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    color: #c7a3b7;
+}
+
+.copyright span {
+    font-weight: 700;
+}

@@ -1,0 +1,581 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    flex-basis: auto;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    margin: 0 10px 0 10px ;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #A4857D;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #dfc9c4;
+}
+
+.navbar {
+    background-color: #fcf3f5;
+    height: 100px;
+}
+
+.portada {
+    display: flex;
+    justify-content: right;
+}
+
+.portada img {
+    height: 600px;
+}
+
+
+.contenedor-portada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(images/my\ melody\ portada.jpg); /*agrega una imagen de fondo a la clase "nombre-café"*/
+    background-size: auto; /*hace que la imagen cubra completamente el ancho de la pantalla*/
+    background-position: right; /*centra la imagen de fondo*/
+    height: 86vh; /* Establece la altura de la sección portada*/
+    color: white;
+    background-repeat: no-repeat;
+}
+
+.nombre-cafe {
+    display: flex;
+    flex-direction: column;
+}
+
+.nombre-cafe h1 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55px;
+    color: #9c5f7c;
+    margin-left: 30px;
+}
+
+.nombre-cafe p {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    color: #A4857D;
+    margin-left: 30px;
+}
+
+.nombre-cafe img {
+    z-index: 0;
+}
+
+.col-md-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.col-md-4 img {
+    height: 80px;
+}
+
+.col-md-4 h2 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #A68780;
+}
+
+.col-md-4 p {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+    color: #c7b8a6;
+}
+
+.container-fluid .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(images/about2.jpg); /*agrega una imagen de fondo a la clase "nombre-café"*/
+    height: 86vh; /* Establece la altura de la sección portada*/
+    background-size: auto; /*hace que la imagen cubra completamente el ancho de la pantalla*/
+    background-position: right; /*centra la imagen de fondo*/
+    color: white;
+    background-repeat: no-repeat;
+}
+
+.about h2 {
+    display: flex;
+    justify-content: left;
+    margin-left: 30px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: #bd8692;
+}
+
+.about p { display: flex;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    margin-left: 30px;
+    color: #c7b8a6;
+}
+
+/*social media*/
+.social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media h1 {
+    margin-top: 25px;
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    color: #9c5f7c;
+}
+
+.contenedor-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.contenedor-social h2 {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #bd95ab;
+    font-size: 23px;
+}
+
+.contenedor-social .btn {
+    margin: 20px;
+}
+
+/* Estilos para los botones */
+.btn button {
+    width: 100px;
+    height: 40px;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 14px;
+    color: #f3e5ec; /*letra del botón*/
+    padding: 3px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: #c7a3b7;
+    transition: .5s;
+}
+
+.btn button:hover {
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #9c5f7c;
+    border-color: #9c5f7c;
+}
+
+
+/*imagenes fijas insta posts*/
+.img-insta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden; /* Asegura que el overlay no se muestre fuera de la imagen */
+}
+
+.img-fijas img {
+    height: 300px;
+    margin-top: 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.img-insta img:hover{
+    filter: brightness(70%);
+}
+
+.overlay {
+    position: absolute;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.img-insta:hover .overlay {
+    display: flex;
+}
+
+.overlay i {
+    font-size: 3em;
+    color: #c7a3b7;
+    padding: 10px;
+    transition: .5s;
+}
+
+.overlay i:hover {
+    color: #bd95ab;
+}
+
+/*imagenes insta dinámicas*/
+.cont-ig  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-ig h2 {
+    text-align: left;
+}
+
+.img-dinamicas-insta img {
+    margin-top: 25px;
+    height: 300px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.img-dinamicas-insta img:hover {
+    filter: brightness(70%); /*para oscurecer la imagen*/
+}
+
+/*imagenes facebook dinámicas*/
+.cont-fb  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.cont-fb h2 {
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #bd95ab;
+    font-size: 23px;
+}
+
+.img-fijas .img-fb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-fb img {
+    height: 300px;
+}
+
+.img-fb img:hover {
+    filter: brightness(70%);
+}
+
+.contenedor-4 .img-fb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.contenedor2-4 .img-fb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+/*animaciones de ambas cajas*/
+.img-dinamicas-insta {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+.expanded .img-dinamicas-insta {
+    max-height: 500px; /* ajusta según sea necesario */
+}
+
+/*footer*/
+.cont-footer {
+    background-color: #fcf3f5;
+}
+
+.cont-info-footer {
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px 0;
+    /*margin: 0 100px;*/
+}
+
+/*estilos del logo*/
+.logo-form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.logo-form img {
+    width: 150px;
+}
+
+/*estilos del label que está por encima del input*/
+.logo-form label {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #bd95ab;
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+/*caja de estilos del input*/
+.input-box {
+    position: relative;
+    width: 80%;
+    height: 50px;
+    border-bottom: 2px solid #d5b3c6; /*color de línea*/
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 0 35px 0 5px;
+}
+
+/*apartado información*/
+.informacion {
+    /*margin: 100px 0 100px 0;*/
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.informacion h2 {
+    margin-bottom: 20px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #bd95ab;
+    font-size: 30px;
+}
+
+.informacion a {
+    width: 30%;
+    text-decoration: none;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #c7a3b7;
+    padding-bottom: 10px;
+    transition: .5;
+}
+
+.informacion a:hover {
+    color: #b48ba1;
+}
+
+/*apartado de ayuda*/
+.ayuda {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.ayuda h2 {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #bd95ab;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.ayuda a {
+    width: 60%;
+    text-decoration: none;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #c7a3b7;
+    padding-bottom: 10px;
+    transition: .5;
+}
+
+.ayuda a:hover {
+    color: #b48ba1;
+}
+
+/*apartado contáctanos*/
+.contactanos {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.contactanos h2 {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #bd95ab;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/*icono y texto de email*/
+.email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 10px;
+    gap: 10px;
+}
+
+.email i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bd95ab;
+}
+
+.email p {
+    margin: 0;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #c7a3b7;
+}
+
+
+/*icono y texto de teléfono*/
+.phone {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    gap: 10px;
+}
+
+.phone i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bd95ab;
+}
+
+.phone p {
+    margin: 0;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #c7a3b7;
+}
+
+/*apartado de redes sociales*/
+hr {
+    color: #9c5f7c;
+}
+
+.red-social a {
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    color: #c7a3b7;
+    padding: 10px;
+    transition: .5s;
+}
+
+.red-social a:hover {
+    color: #bd95ab;
+}
+
+.btn-sub input {
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 14px;
+    color: #f3e5ec; /*letra del botón*/
+    padding: 3px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #c7a3b7;
+    transition: .5s;
+}
+
+.btn-sub input:hover {
+    font-weight: 500;
+    background-color: #9c5f7c;
+    border-color: #9c5f7c;
+}
+
+/*copy*/
+.copyright {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.copyright h3 {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    color: #c7a3b7;
+}
+
+.copyright span {
+    font-weight: 700;
+}
+
