@@ -8,7 +8,7 @@ Soy **Estrella**, tengo 22 años y actualmente trabajo para **Daimler Buses Méx
 <h2>Sobre mí</h2>
 <div>
   <p>No tengo experiencia en nada:D</p>
-  <img align="right" src="https://i.pinimg.com/originals/77/55/12/775512d222eb9562371cf24ca66ff790.gif">
+  <img align="right" src="https://i.pinimg.com/originals/77/55/12/775512d222eb9562371cf24ca66ff790.gif" width="60%">
 </div>
 
 
