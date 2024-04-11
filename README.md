@@ -5,6 +5,8 @@ Soy **Estrella**, tengo 22 años y actualmente trabajo para **Daimler Buses Méx
   <img src="./img/wallpaper.jpg" width="100%">
 </p>
 
-Origen de mi nickname **_Ayesha_**: 
+<img src="https://i.pinimg.com/originals/77/55/12/775512d222eb9562371cf24ca66ff790.gif">
+
+
 
 
