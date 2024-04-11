@@ -5,11 +5,11 @@
 
 <h2>
   <a href="">
-  <img src="./img/corazones.gif" width="50">
+  <img src="./img/estrellas.gif" width="50">
 </a>
 Sobre mí
   <a href="">
-    <img src="./img/corazones.gif" width="50">
+    <img src="./img/estrellas.gif" width="50">
   </a>
 </h2>
 
