@@ -3,6 +3,7 @@
   <img src="https://i.pinimg.com/originals/af/12/ec/af12ec2f13300c2e44ab98f9d892e1c8.gif" width="100%">
 </p>
 
+<img src="https://i.gifer.com/NRI0.gif" width="100">
 <h2>Sobre mí</h2>
 <div>
   <img align="right" src="https://i.pinimg.com/originals/77/55/12/775512d222eb9562371cf24ca66ff790.gif" width="400">
