@@ -1,6 +1,6 @@
 <h1 align="center"> Bienvenidos a mi perfil:D</h1> 
 <p align="center">
-  <img src="https://i.pinimg.com/originals/ae/1c/02/ae1c02d34d9ce9e8a86380e246d8e355.gif" width="100%">
+  <img src="https://i.pinimg.com/originals/af/12/ec/af12ec2f13300c2e44ab98f9d892e1c8.gif" width="100%">
 </p>
 
 <h2>Sobre mí</h2>
