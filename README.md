@@ -19,7 +19,7 @@ Sobre mí
   <p> 🍓 Soy Estrella, tengo 23 años y trabajé para Daimler Buses México, mejor conocida como Mercedes-Benz como estudiante Dual en el área de IT.</p>
   <p> 🍓 Mis pasatiempos favoritos son: leer, jugar videojuegos, escuchar música, etc.</p>
   <p> 🍓 Me encanta el desarrollo web, principalmente el front end, pero me encantaría convertirme en programadora full stack💗💻</p>
-  <p> 🍓 I'm Estrella, I'm 22 years old and I'm currently working for Daimler Buses Mexico, better known as Mercedes-Benz as a Dual student in the IT area.</p>
+  <p> 🍓 I'm Estrella, I'm 23 years old and I'm currently working for Daimler Buses Mexico, better known as Mercedes-Benz as a Dual student in the IT area.</p>
   <p> 🍓 My favorite hobbies are: reading, playing video games, listening to music, etc.</p>
   <p> 🍓 I love web development, mainly front end, but I would love to become a full stack programmer💗💻.</p>
 </div>
