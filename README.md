@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  ──── ⋆⋅☆⋅⋆ ────
+  ──────────────── ⋆⋅☆⋅⋆ ────────────────
 </p>
 
 <h3 align="center"> sobre mí</h3>
@@ -34,7 +34,9 @@ Fuera del código disfruto leer, escuchar música y jugar videojuegos, intereses
 
 <br>
 
-───────────────────────────────────────── ⋆⋅☆⋅⋆ ────────────────────────────────────────
+<p align="center">
+  ──────────────── ⋆⋅☆⋅⋆ ────────────────
+</p>
 
 <h3 align="center"> tecnologías</h3>
 
@@ -44,7 +46,9 @@ Fuera del código disfruto leer, escuchar música y jugar videojuegos, intereses
 
 <br>
 
-───────────────────────────────────────── ⋆⋅☆⋅⋆ ────────────────────────────────────────
+<p align="center">
+  ──────────────── ⋆⋅☆⋅⋆ ────────────────
+</p>
 
 <h3 align="center"> actualmente</h3>
 
@@ -61,7 +65,9 @@ escribiendo código más limpio y estructurado
 
 <br>
 
-───────────────────────────────────────── ⋆⋅☆⋅⋆ ────────────────────────────────────────
+<p align="center">
+  ──────────────── ⋆⋅☆⋅⋆ ────────────────
+</p>
 
 <h3 align="center"> enfoque</h3>
 
